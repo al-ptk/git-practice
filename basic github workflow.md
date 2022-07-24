@@ -8,3 +8,5 @@ The basic git workflow could be something like this:
 - If you click that button, you get redirected to the 'Open a pull request page.' In that page, you get to entitle and describe the pull request.
 - Once you open a pull request, it will be availabe to change reviews and approval. In this state, you can still make and push changes.
 - Once you merge the branch to main at github, you go back to the main branch and do a `git pull origin main` to update your local main branch.
+- If you change and push an already-merged branch, you can create a new request easily. I do not know about **conflicting changes** yet.
+- You can always repush an old local branch to a deleted upstream one. It will just ge recreated, I think.
