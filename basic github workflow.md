@@ -7,3 +7,4 @@ The basic git workflow could be something like this:
 - A pull request is a procedure to verify and merge different branches to the main codebase.
 - If you click that button, you get redirected to the 'Open a pull request page.' In that page, you get to entitle and describe the pull request.
 - Once you open a pull request, it will be availabe to change reviews and approval. In this state, you can still make and push changes.
+- Once you merge the branch to main at github, you go back to the main branch and do a `git pull origin main` to update your local main branch.
