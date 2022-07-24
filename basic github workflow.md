@@ -12,3 +12,4 @@ The basic git workflow could be something like this:
 - You can always repush an old local branch to a deleted upstream one. It will just ge recreated, I think.
 - You can also delete branches, to prune excess.
 - I can probably get more bits about git workflow, but this should be enough for now. I must focus on other stuff!
+- One other thing, before I go: I wonder if I kill branches by merging them to main.
